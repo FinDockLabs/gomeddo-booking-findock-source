@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_percentage_when_remainder_is_checked</fullName>
+    <active>true</active>
+    <errorConditionFormula>Create_Remainder_Payment__c &amp;&amp; NOT(ISBLANK( Deposit_percentage__c ))</errorConditionFormula>
+    <errorMessage>You can not enter a percentage when the rule is used to create the remainder of the reservation</errorMessage>
+</ValidationRule>

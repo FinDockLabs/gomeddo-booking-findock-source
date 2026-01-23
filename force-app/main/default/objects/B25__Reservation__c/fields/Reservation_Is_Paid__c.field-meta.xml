@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reservation_Is_Paid__c</fullName>
+    <formula>IF ( AND( OR(Deposit_Installment_Status__c = &apos;Collected&apos;,  Deposit_Amount__c = 0), OR ( Remained_Installment_Status__c = &apos;Collected&apos;,  Remainder__c = 0)), TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Reservation Is Paid</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

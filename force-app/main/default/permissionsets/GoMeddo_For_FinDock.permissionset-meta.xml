@@ -54,6 +54,21 @@
         <field>B25__Reservation__c.Remainder_Installment__c</field>
         <readable>true</readable>
     </fieldPermissions>
+        <fieldPermissions>
+        <editable>true</editable>
+        <field>B25__Reservation__c.Deposit_Installment_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>B25__Reservation__c.Remained_Installment_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>B25__Reservation__c.Reservation_Is_Paid__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
 
     <!-- Payment_Rule__c fields -->
     <fieldPermissions>

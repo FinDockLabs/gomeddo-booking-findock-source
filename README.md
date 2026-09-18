@@ -5,19 +5,19 @@
 
 # GoMeddo (Booking) FinDock integration
 
-The repo includes Flows for creating PayLinks on confirmed reservations, tracking payment status, and handling payment completion.
-It is intended as an implemenation starter
+The repo includes flows for creating PayLinks on confirmed reservations, tracking payment status, and handling payment completion. It is intended as an implementation starter.
 
 ## Installation
 
-Prerquisites:
+Prerequisites:
 - FinDock with at least one processor
 - GoMeddo
 
 ### Step 0: Deploy the project
 First deploy the project.
+
 To deploy the flow to your Salesforce environment, you can:
-- use `sfdx`.
+- use the `sf` cli.
 - press the "Deploy to Salesforce" button at the top of this README and then press "Login to Salesforce" in the top right of your screen.
 - any other deployment method you prefer.
 
@@ -41,7 +41,7 @@ To deploy the flow to your Salesforce environment, you can:
 2. Flow creates an Installment with a FinDock PayLink
 3. Customer receives the link (email, SMS, or portal)
 4. Customer pays
-5. FinDock updates the payment status of the Installment in Salesforce6. Reservation shows as paid (edited)
+5. FinDock updates the payment status of the Installment in Salesforce. Reservation shows as paid in GoMeddo
 
 
 ## Contributing
